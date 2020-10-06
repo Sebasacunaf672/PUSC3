@@ -1,0 +1,63 @@
+.CONTAINER{
+	OVERFLOW:HIDDEN;
+	BACKGROUND-COLOR:#3b42a8;
+	FONT-FAMILY:arial;
+	
+}
+.CONTAINER A{
+	FLOAT:LEFT;
+	FONT-SIZE:16PX;
+	COLOR:WHITE;
+	TEXT-ALIGN:CENTER;
+	PADDING:14PX 16PX;
+	TEXT-DECORATION:NONE;
+
+}
+.CONTAINER A:HOVER, #NAVEGATION{
+	BACKGROUND-COLOR: #db3232;
+	COLOR:#000000;
+	FONT:BOLD;
+	FONT-SIZE:20PX;
+		border-right: 1px solid #FFFFFF;
+}
+#CONTENEDOR{
+	WIDTH:80%;
+	HEIGHT:100%;
+	BACKGROUND-COLOR:#db3232;
+	MARGIN: 0PX AUTO 0PX AUTO;
+	PADDING: 5PX;
+	BORDER-STYLE:SOLID;
+	BORDER-COLOR:WHITE;
+	BORDER-RADIUS:20PX;	
+}
+BODY{
+	BACKGROUND: #3b42a8;
+}
+table, td, th, tr{
+  border: 3px solid black;
+  BORDER-COLOR:black;
+  font-size:14px;
+  color:blak;
+  text-align:center;
+}
+#TEMAS{
+	WIDTH: 35%;
+	HEIGHT:690PX;
+	FLOAT: LEFT;
+	border-color:black;
+	border:2px;
+}
+#ARTICULOS{
+	WIDTH:60%;
+	HEIGHT:690PX;
+	FLOAT:RIGHT;
+	PADDING-LEFT:20PX;
+	MARGIN: 0PX AUTO 0PX AUTO;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
